@@ -2,7 +2,7 @@ https://raid-database-93fe2.web.app/create
 
 This was my first application using both Firebase FireStore and Angular together, it's a simple raid sign up for online gaming. It allows members of a gaming group to sign up ahead of time to a dungeon so a head-count can be assessed prior to engagement.
 
-When you first arrive you are presented with a character sign up sheet. The player will enter in his details like character name, email, particular dungeon and his equipment ranking. Pressing Sign up will post the data to the firebase database.
+When you first arrive you are presented with a character sign up sheet. The player will enter in his or her details like character name, email, particular dungeon and his equipment ranking. Pressing Sign up will post the data to the firebase database.
 
 ![signup](https://user-images.githubusercontent.com/48900828/208229086-8b2b9a8c-2003-4e35-b330-64257308bdd3.PNG)
 

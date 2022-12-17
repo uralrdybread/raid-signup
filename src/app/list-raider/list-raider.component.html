@@ -1,0 +1,25 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Character Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Raid Name</th>
+            <th scope="col">Gear Rank</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let raider of Raider; let i = index">
+            <th scope="row">{{i + 1}}</th>
+            <td>{{ raider.name }}</td>
+            <td>{{ raider.email }}</td>
+            <td>{{ raider.raid_name }}</td>
+            <td>{{ raider.gear_rank }}</td>
+            <td>
+                <span (click)="removeRaider(raider)" class="btn btn-danger">Delete</span> &nbsp;
+                <span routerLink="/update-raider/{{raider.id}}" class="btn btn-primary">Edit</span>
+            </td>
+        </tr>
+    </tbody>
+    </table>
